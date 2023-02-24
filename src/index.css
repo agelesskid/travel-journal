@@ -1,0 +1,98 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Inter, 'sans-serif';
+}
+
+body {
+  max-width: 550px;
+  margin: 0 auto;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #F55A5A;
+  padding: 1em;
+}
+
+header img {
+  max-width: 24px;
+  margin-right: .4375em;
+}
+
+.header-heading {
+  color: #fff;
+  font-size: 0.875rem;
+  font-weight: 500;
+}
+
+main {
+  padding: 2.5em;
+}
+
+.card {
+  display: flex;
+  align-items: center;
+  height: 33%;
+  padding-bottom: 1.125em;
+  margin-bottom: 1.125em;
+  border-bottom: 1px solid #F5F5F5;
+
+  color: #2B283A;
+}
+
+.card-image {
+  display: inline-block;
+  max-width: 125px;
+  min-height: 168px;
+  object-fit: cover;
+  object-position: center;
+  margin-right: 1.1875em;
+  border-radius: 5px;
+}
+
+.location-wrapper {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.25em;
+}
+
+.location-wrapper i {
+  color: #F55A5A;
+}
+
+.location-wrapper p, .location-wrapper a, .card-dates, .card-desc {
+  font-size: 0.625rem;
+}
+
+.location-wrapper p {
+  margin-right: 1.2em;
+  margin-left: 0.4em;
+
+  text-transform: uppercase;
+  letter-spacing: 0.17em;
+}
+
+.location-wrapper a {
+  color: #918E9B;
+}
+
+.card-title {
+  margin-bottom: .8em;
+
+  font-size: 1.5625rem;
+  font-weight: 700;
+}
+
+.card-dates {
+  margin-bottom: 1em;
+
+  font-weight: 700;  
+}
+
+.card-desc {
+  width: 75%;
+}
